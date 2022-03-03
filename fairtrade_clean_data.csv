@@ -1,0 +1,135 @@
+worker_type_core,understand_contract,entity_tenure_years,entity_tenure_months,workplace_satis_core,trust_leadership_core,living_wage_tf_core,conditions_rate_core,safety_core,accident_last_year,injury_last_year,covid_safety_measures_core,return_next_season_core,pressure_to_work_core,factory_recommend_tf_core
+Permanent,Yes,2.0,4.0,Very satisfied,Yes,No,Somewhat good,Somewhat agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,5 - Neutral
+Permanent,Yes,6.0,0.0,Very satisfied,Yes,No,Neither good or bad,Somewhat agree,Yes,1 occasion,Somewhat agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,7.0,0.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,7
+Seasonal OR temporary,Yes,0.0,5.0,Somewhat Satisfied,Yes,No,Very good,Strongly agree,Yes,Never sustained an injury while at this job,Somewhat agree,Yes,Agree nor disagree,10 - Extremely likely 
+Permanent,Yes,0.0,8.0,Very satisfied,Yes,No,Very good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Seasonal OR temporary,Yes,3.0,0.0,Neither satisfied nor dissatisfied,Don't know,No,Somewhat good,Agree nor disagree,Yes,1 occasion,Agree nor disagree,Yes,Strongly disagree,8
+Permanent,Yes,3.0,1.0,Somewhat Satisfied,Yes,No,Somewhat good,Strongly agree,Yes,Don't Know,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Seasonal OR temporary,Yes,0.0,9.0,Somewhat Satisfied,Yes,Yes,Neither good or bad,Strongly agree,Yes,Never sustained an injury while at this job,Strongly Agree,Yes,Strongly disagree,9
+Permanent,Yes,0.0,9.0,Very satisfied,Yes,No,Neither good or bad,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Agree nor disagree,9
+Permanent,Yes,0.0,3.0,Very satisfied,Yes,No,Somewhat good,Strongly agree,Yes,Never sustained an injury while at this job,Strongly Agree,Yes,Strongly disagree,9
+Permanent,Yes,3.0,6.0,Neither satisfied nor dissatisfied,Yes,Yes,Neither good or bad,Agree nor disagree,Yes,2 occasions,Strongly Agree,No,Agree nor disagree,7
+Permanent,Yes,1.0,6.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,9
+Permanent,Yes,0.0,8.0,Very satisfied,Yes,Yes,Neither good or bad,Somewhat agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,2.0,11.0,Neither satisfied nor dissatisfied,Yes,No,Neither good or bad,Strongly disagree,Yes,1 occasion,Strongly Agree,Yes,Somewhat agree,5 - Neutral
+Seasonal OR temporary,No,0.0,4.0,Somewhat dissatisfied,No,No,Somewhat good,Somewhat agree,Yes,1 occasion,Agree nor disagree,No,Somewhat agree,6
+Seasonal OR temporary,Yes,4.0,0.0,Very satisfied,Yes,Yes,Very good,Strongly agree,Yes,Never sustained an injury while at this job,Strongly Agree,Yes,Strongly agree,10 - Extremely likely 
+Seasonal OR temporary,Yes,0.0,3.0,Very satisfied,Yes,Yes,Very good,Strongly agree,Yes,Never sustained an injury while at this job,Strongly Agree,Yes,Strongly agree,10 - Extremely likely 
+Seasonal OR temporary,Yes,0.0,2.0,Very satisfied,Yes,Yes,Very good,Strongly agree,Yes,Never sustained an injury while at this job,Strongly Agree,Yes,Strongly agree,10 - Extremely likely 
+Seasonal OR temporary,Yes,0.0,3.0,Very satisfied,Yes,Yes,Very good,Strongly agree,Yes,Never sustained an injury while at this job,Strongly Agree,Yes,Strongly agree,10 - Extremely likely 
+Seasonal OR temporary,Yes,3.0,0.0,Somewhat Satisfied,Yes,Yes,Neither good or bad,Somewhat agree,Yes,1 occasion,Agree nor disagree,Yes,Agree nor disagree,8
+Seasonal OR temporary,Yes,0.0,5.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Agree nor disagree,Yes,1 occasion,Somewhat agree,Yes,Agree nor disagree,7
+Seasonal OR temporary,Yes,0.0,4.0,Somewhat Satisfied,Yes,Yes,Neither good or bad,Agree nor disagree,Yes,Never sustained an injury while at this job,Somewhat agree,Yes,Agree nor disagree,7
+Seasonal OR temporary,Yes,0.0,0.0,Neither satisfied nor dissatisfied,Yes,No,Neither good or bad,Agree nor disagree,Yes,1 occasion,Agree nor disagree,Yes,Somewhat disagree,7
+Seasonal OR temporary,Yes,3.0,0.0,Somewhat Satisfied,Yes,Yes,Neither good or bad,Somewhat agree,Yes,1 occasion,Somewhat agree,Yes,Agree nor disagree,7
+Permanent,Yes,5.0,0.0,Somewhat Satisfied,Yes,Don't know,Neither good or bad,Somewhat agree,Yes,1 occasion,Somewhat agree,Yes,Strongly agree,5 - Neutral
+Permanent,Don't know,3.0,0.0,Somewhat Satisfied,Yes,No,Very good,Agree nor disagree,Yes,1 occasion,Somewhat agree,Yes,Strongly disagree,10 - Extremely likely 
+Seasonal OR temporary,Yes,0.0,1.0,Very satisfied,Yes,Yes,Very good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,4.0,0.0,Very satisfied,No,No,Neither good or bad,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,5 - Neutral
+Permanent,Yes,10.0,0.0,Very satisfied,Yes,No,Neither good or bad,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Somewhat agree,10 - Extremely likely 
+Permanent,Yes,1.0,3.0,Somewhat Satisfied,Yes,No,Somewhat good,Somewhat agree,Yes,1 occasion,Somewhat disagree,Yes,Agree nor disagree,5 - Neutral
+Permanent,Yes,10.0,0.0,Very satisfied,Yes,No,Very good,Strongly agree,Yes,1 occasion,Somewhat agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,No,1.0,7.0,Very dissatisfied,No,No,Somewhat good,Somewhat disagree,Yes,3 or more occasions,Somewhat disagree,No,Strongly agree,0- Extremely unlikely
+Seasonal OR temporary,Yes,0.0,3.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Strongly agree,Yes,Never sustained an injury while at this job,Strongly Agree,Yes,Strongly disagree,9
+Permanent,No,1.0,6.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,7
+Seasonal OR temporary,Yes,0.0,9.0,Very satisfied,Yes,Yes,Very good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Seasonal OR temporary,Yes,0.0,2.0,Very satisfied,Yes,No,Very good,Strongly agree,Yes,2 occasions,Strongly Agree,Yes,Strongly agree,10 - Extremely likely 
+Permanent,Yes,2.0,0.0,Somewhat Satisfied,No,Yes,Neither good or bad,Agree nor disagree,Yes,2 occasions,Strongly Agree,Yes,Strongly disagree,8
+Permanent,Yes,0.0,6.0,Very satisfied,Yes,Yes,Very good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Somewhat agree,9
+Permanent,Yes,0.0,4.0,Very satisfied,Yes,No,Very good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,1.0,0.0,Very satisfied,Yes,Yes,Somewhat good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,7.0,0.0,Somewhat Satisfied,Yes,No,Very good,Strongly disagree,Yes,1 occasion,Somewhat agree,Yes,Strongly disagree,8
+Permanent,Don't know,1.0,0.0,Very satisfied,No,No,Neither good or bad,Somewhat agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,8
+Permanent,Yes,0.0,7.0,Very satisfied,Yes,Yes,Somewhat good,Somewhat agree,Yes,1 occasion,Somewhat disagree,Yes,Strongly disagree,8
+Permanent,Yes,7.0,0.0,Somewhat Satisfied,Don't know,No,Neither good or bad,Strongly disagree,Yes,1 occasion,Somewhat agree,Don't know,Strongly agree,8
+Permanent,Yes,6.0,11.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Strongly agree,Yes,2 occasions,Somewhat agree,Yes,Strongly disagree,8
+Permanent,Yes,9.0,0.0,Neither satisfied nor dissatisfied,Yes,Yes,Somewhat good,Somewhat agree,Yes,1 occasion,Somewhat disagree,Yes,Strongly disagree,8
+Permanent,Yes,12.0,0.0,Very satisfied,Yes,Yes,Somewhat good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,8.0,5.0,Somewhat dissatisfied,Don't know,No,Neither good or bad,Somewhat agree,Yes,1 occasion,Strongly Agree,Yes,Somewhat agree,10 - Extremely likely 
+Seasonal OR temporary,Yes,0.0,4.0,Very dissatisfied,No,No,Somewhat bad,Somewhat disagree,Yes,1 occasion,Somewhat disagree,Don't know,Strongly agree,5 - Neutral
+Permanent,Yes,5.0,0.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,9
+Permanent,Yes,1.0,8.0,Neither satisfied nor dissatisfied,Yes,Yes,Very good,Strongly agree,Yes,Never sustained an injury while at this job,Agree nor disagree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,1.0,1.0,Very satisfied,Yes,Yes,Very good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Agree nor disagree,10 - Extremely likely 
+Permanent,Yes,11.0,0.0,Very satisfied,Yes,No,Somewhat good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,12.0,8.0,Neither satisfied nor dissatisfied,No,No,Neither good or bad,Somewhat agree,Yes,1 occasion,Agree nor disagree,Yes,Strongly agree,7
+Seasonal OR temporary,Yes,5.0,0.0,Somewhat Satisfied,Yes,No,Very good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,9.0,11.0,Very satisfied,Yes,No,Very good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,4.0,0.0,Very satisfied,Yes,Yes,Neither good or bad,Strongly agree,Yes,2 occasions,Strongly Agree,Yes,Strongly disagree,9
+Seasonal OR temporary,Yes,5.0,0.0,Neither satisfied nor dissatisfied,Yes,No,Neither good or bad,Strongly agree,Yes,1 occasion,Strongly Agree,Don't know,Strongly disagree,7
+Seasonal OR temporary,Yes,0.0,3.0,Somewhat Satisfied,No,Yes,Neither good or bad,Strongly agree,Yes,3 or more occasions,Strongly Agree,No,Somewhat agree,0- Extremely unlikely
+Permanent,Yes,2.0,0.0,Neither satisfied nor dissatisfied,Yes,Yes,Somewhat good,Strongly agree,Yes,1 occasion,Strongly disagree,Yes,Strongly disagree,8
+Seasonal OR temporary,No,0.0,2.0,Very satisfied,Yes,No,Very good,Strongly agree,Yes,Never sustained an injury while at this job,Strongly Agree,Yes,Strongly disagree,1
+Permanent,Yes,2.0,0.0,Very satisfied,Yes,No,Neither good or bad,Agree nor disagree,Yes,1 occasion,Strongly Agree,No,Agree nor disagree,5 - Neutral
+Seasonal OR temporary,Yes,0.0,3.0,Somewhat Satisfied,Yes,No,Neither good or bad,Strongly agree,Yes,2 occasions,Strongly Agree,Yes,Strongly disagree,9
+Seasonal OR temporary,Yes,11.0,0.0,Somewhat Satisfied,Yes,No,Neither good or bad,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,8
+Seasonal OR temporary,Yes,0.0,1.0,Somewhat Satisfied,Yes,Yes,Neither good or bad,Strongly agree,Yes,2 occasions,Strongly Agree,Yes,Agree nor disagree,9
+Permanent,No,0.0,3.0,Neither satisfied nor dissatisfied,No,No,Somewhat good,Agree nor disagree,Yes,1 occasion,Agree nor disagree,Yes,Agree nor disagree,8
+Permanent,No,0.0,4.0,Somewhat dissatisfied,No,No,Somewhat bad,Strongly disagree,Yes,2 occasions,Strongly Agree,Yes,Strongly agree,7
+Permanent,Yes,0.0,3.0,Very satisfied,Yes,Yes,Very good,Strongly agree,Yes,1 occasion,Strongly disagree,Yes,Strongly disagree,8
+Permanent,Yes,1.0,0.0,Somewhat Satisfied,Yes,No,Very good,Strongly agree,Yes,1 occasion,Agree nor disagree,Yes,Somewhat disagree,8
+Seasonal OR temporary,Yes,1.0,2.0,Neither satisfied nor dissatisfied,Yes,No,Neither good or bad,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,8
+Permanent,Yes,0.0,6.0,Neither satisfied nor dissatisfied,Yes,No,Neither good or bad,Strongly disagree,Yes,2 occasions,Strongly Agree,No,Strongly agree,7
+Permanent,Yes,1.0,5.0,Somewhat Satisfied,No,Yes,Neither good or bad,Strongly disagree,Yes,1 occasion,Somewhat agree,Yes,Strongly disagree,9
+Permanent,Yes,0.0,8.0,Very satisfied,Yes,Yes,Very good,Strongly agree,Yes,1 occasion,Strongly disagree,Yes,Strongly agree,9
+Permanent,Yes,0.0,3.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Somewhat agree,Yes,1 occasion,Agree nor disagree,Don't know,Agree nor disagree,5 - Neutral
+Permanent,Yes,0.0,9.0,Somewhat Satisfied,Yes,Yes,Neither good or bad,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly agree,10 - Extremely likely 
+Permanent,Yes,0.0,7.0,Very satisfied,Yes,No,Somewhat good,Strongly agree,Yes,1 occasion,Agree nor disagree,Yes,Strongly disagree,9
+Permanent,Yes,1.0,0.0,Somewhat Satisfied,Yes,Yes,Very good,Strongly agree,Yes,2 occasions,Strongly Agree,Yes,Somewhat disagree,9
+Permanent,Yes,0.0,2.0,Somewhat Satisfied,Don't know,Yes,Somewhat good,Strongly disagree,Yes,1 occasion,Strongly disagree,Yes,Strongly disagree,8
+Permanent,Yes,1.0,6.0,Very satisfied,Yes,Yes,Somewhat bad,Strongly disagree,Yes,2 occasions,Strongly Agree,Yes,Strongly agree,10 - Extremely likely 
+Permanent,Yes,0.0,6.0,Very satisfied,Yes,No,Neither good or bad,Strongly agree,Yes,1 occasion,Strongly disagree,Yes,Strongly agree,8
+Permanent,No,0.0,3.0,Very satisfied,Yes,No,Somewhat good,Strongly agree,Yes,2 occasions,Somewhat agree,Yes,Strongly disagree,8
+Permanent,Yes,0.0,6.0,Very satisfied,Yes,Yes,Somewhat good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,9
+Permanent,Yes,1.0,4.0,Very satisfied,Yes,No,Neither good or bad,Somewhat disagree,Yes,3 or more occasions,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,0.0,7.0,Somewhat Satisfied,Yes,Don't know,Somewhat good,Strongly agree,Yes,1 occasion,Strongly disagree,Yes,Strongly disagree,9
+Permanent,Yes,4.0,0.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Strongly agree,Yes,3 or more occasions,Strongly Agree,Yes,Strongly disagree,8
+Permanent,Yes,0.0,8.0,Somewhat Satisfied,Yes,Yes,Neither good or bad,Somewhat disagree,Yes,2 occasions,Strongly Agree,Yes,Strongly disagree,5 - Neutral
+Permanent,Yes,1.0,1.0,Somewhat Satisfied,Yes,Don't know,Somewhat good,Strongly agree,Yes,2 occasions,Strongly disagree,Yes,Agree nor disagree,8
+Permanent,Don't know,0.0,1.0,Very satisfied,Yes,Yes,Very good,Strongly agree,Yes,1 occasion,Somewhat agree,Yes,Strongly disagree,10 - Extremely likely 
+Seasonal OR temporary,Yes,0.0,3.0,Somewhat Satisfied,Yes,No,Very good,Strongly agree,Yes,2 occasions,Strongly Agree,Yes,Strongly disagree,8
+Permanent,Yes,3.0,6.0,Very satisfied,Yes,No,Somewhat good,Strongly agree,Yes,2 occasions,Strongly Agree,Yes,Strongly disagree,8
+Permanent,Yes,0.0,8.0,Very satisfied,No,No,Neither good or bad,Strongly disagree,Yes,2 occasions,Strongly disagree,No,Somewhat agree,7
+Permanent,Yes,5.0,0.0,Very satisfied,Yes,Yes,Very good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Seasonal OR temporary,Yes,1.0,4.0,Somewhat Satisfied,Don't know,No,Somewhat good,Strongly agree,Yes,1 occasion,Somewhat agree,Yes,Somewhat agree,8
+Seasonal OR temporary,Yes,0.0,6.0,Somewhat Satisfied,Yes,No,Somewhat good,Agree nor disagree,Yes,1 occasion,Somewhat agree,No,Somewhat agree,7
+Seasonal OR temporary,Yes,2.0,0.0,Neither satisfied nor dissatisfied,Yes,Yes,Neither good or bad,Somewhat agree,Yes,1 occasion,Agree nor disagree,Yes,Agree nor disagree,9
+Seasonal OR temporary,Yes,0.0,6.0,Very satisfied,Yes,Yes,Somewhat good,Somewhat agree,Yes,Never sustained an injury while at this job,Somewhat agree,Yes,Strongly disagree,8
+Seasonal OR temporary,Yes,0.0,4.0,Somewhat Satisfied,Yes,Yes,Neither good or bad,Somewhat agree,Yes,Don't Know,Somewhat agree,Yes,Strongly disagree,8
+Seasonal OR temporary,Yes,0.0,6.0,Somewhat Satisfied,Yes,Yes,Neither good or bad,Somewhat agree,Yes,1 occasion,Agree nor disagree,Yes,Strongly disagree,9
+Seasonal OR temporary,Yes,0.0,6.0,Very satisfied,Yes,Yes,Neither good or bad,Somewhat agree,Yes,Never sustained an injury while at this job,Somewhat agree,Yes,Agree nor disagree,8
+Seasonal OR temporary,Yes,0.0,10.0,Very satisfied,Don't know,Yes,Somewhat good,Somewhat agree,Yes,Never sustained an injury while at this job,Somewhat agree,No,Strongly disagree,9
+Seasonal OR temporary,Yes,0.0,0.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Somewhat agree,Yes,1 occasion,Somewhat agree,Yes,Somewhat disagree,9
+Seasonal OR temporary,Yes,0.0,8.0,Very satisfied,Yes,Yes,Neither good or bad,Somewhat agree,Yes,1 occasion,Agree nor disagree,Yes,Strongly disagree,8
+Seasonal OR temporary,Yes,0.0,10.0,Somewhat Satisfied,Yes,Yes,Very good,Somewhat agree,Yes,1 occasion,Somewhat agree,Yes,Somewhat disagree,8
+Seasonal OR temporary,Yes,1.0,0.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Somewhat agree,Yes,Don't Know,Somewhat agree,Yes,Agree nor disagree,8
+Seasonal OR temporary,Yes,0.0,6.0,Somewhat Satisfied,Yes,No,Somewhat good,Somewhat agree,Yes,Don't Know,Somewhat agree,Yes,Somewhat disagree,8
+Seasonal OR temporary,Yes,0.0,8.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Somewhat agree,Yes,Never sustained an injury while at this job,Somewhat agree,Yes,Somewhat disagree,9
+Seasonal OR temporary,Yes,2.0,0.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Somewhat agree,Yes,Never sustained an injury while at this job,Agree nor disagree,Yes,Agree nor disagree,8
+Seasonal OR temporary,Yes,3.0,0.0,Very satisfied,Yes,No,Very good,Strongly agree,Yes,1 occasion,Agree nor disagree,Yes,Somewhat agree,8
+Seasonal OR temporary,Yes,4.0,0.0,Neither satisfied nor dissatisfied,Yes,No,Neither good or bad,Agree nor disagree,Yes,Never sustained an injury while at this job,Agree nor disagree,Yes,Somewhat agree,6
+Seasonal OR temporary,No,1.0,0.0,Neither satisfied nor dissatisfied,Don't know,No,Neither good or bad,Agree nor disagree,Yes,1 occasion,Agree nor disagree,Yes,Agree nor disagree,4
+Seasonal OR temporary,Yes,0.0,7.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Somewhat agree,Yes,1 occasion,Agree nor disagree,Yes,Agree nor disagree,7
+Seasonal OR temporary,Yes,0.0,9.0,Very satisfied,Don't know,Yes,Somewhat good,Somewhat agree,Yes,Never sustained an injury while at this job,Agree nor disagree,Yes,Somewhat disagree,8
+Seasonal OR temporary,No,1.0,0.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Somewhat agree,Yes,Don't Know,Somewhat agree,Yes,Agree nor disagree,9
+Permanent,Yes,3.0,0.0,Somewhat dissatisfied,No,No,Neither good or bad,Somewhat agree,Yes,2 occasions,Somewhat disagree,No,Strongly disagree,6
+Permanent,Yes,3.0,0.0,Neither satisfied nor dissatisfied,No,No,Somewhat good,Strongly agree,Yes,1 occasion,Strongly disagree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,5.0,0.0,Very satisfied,Don't know,No,Neither good or bad,Strongly agree,Yes,3 or more occasions,Strongly Agree,Yes,Strongly disagree,8
+Permanent,Yes,4.0,0.0,Somewhat Satisfied,No,No,Neither good or bad,Strongly disagree,Yes,3 or more occasions,Strongly Agree,Don't know,Strongly agree,8
+Permanent,No,8.0,0.0,Somewhat Satisfied,Don't know,No,Somewhat good,Somewhat disagree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,7
+Permanent,No,5.0,0.0,Somewhat dissatisfied,Yes,Yes,Somewhat good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,8
+Permanent,Yes,8.0,0.0,Somewhat Satisfied,Yes,Yes,Somewhat good,Strongly agree,Yes,2 occasions,Strongly Agree,Don't know,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,8.0,0.0,Somewhat Satisfied,Yes,No,Somewhat good,Strongly disagree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,8
+Permanent,Yes,17.0,0.0,Very satisfied,Yes,No,Very good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,3.0,0.0,Somewhat Satisfied,Yes,No,Somewhat bad,Somewhat agree,Yes,1 occasion,Somewhat agree,Yes,Strongly disagree,8
+Permanent,Yes,11.0,0.0,Somewhat Satisfied,Don't know,No,Somewhat good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,8
+Permanent,No,11.0,0.0,Somewhat Satisfied,No,No,Somewhat good,Strongly agree,Yes,2 occasions,Somewhat disagree,No,Strongly disagree,5 - Neutral
+Permanent,Yes,1.0,0.0,Neither satisfied nor dissatisfied,No,No,Neither good or bad,Somewhat agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,2
+Permanent,Yes,0.0,7.0,Very satisfied,Yes,No,Very good,Strongly agree,Yes,Don't Know,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,No,6.0,0.0,Very satisfied,No,No,Very bad,Strongly disagree,Yes,1 occasion,Strongly Agree,No,Strongly disagree,5 - Neutral
+Permanent,Yes,0.0,10.0,Very satisfied,No,Yes,Somewhat good,Strongly agree,Yes,Never sustained an injury while at this job,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,Yes,6.0,0.0,Neither satisfied nor dissatisfied,Yes,No,Neither good or bad,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,6
+Permanent,Yes,3.0,0.0,Somewhat dissatisfied,Yes,No,Somewhat good,Strongly agree,Yes,1 occasion,Strongly Agree,No,Strongly disagree,4
+Permanent,Yes,2.0,1.0,Very satisfied,Yes,Yes,Very good,Strongly agree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,10 - Extremely likely 
+Permanent,No,7.0,0.0,Very satisfied,Yes,No,Somewhat good,Strongly agree,Yes,1 occasion,Strongly disagree,Yes,Strongly disagree,8
+Permanent,Yes,2.0,3.0,Neither satisfied nor dissatisfied,No,No,Neither good or bad,Strongly disagree,Yes,1 occasion,Strongly Agree,Yes,Strongly disagree,2
