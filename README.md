@@ -1,8 +1,13 @@
 # fairtrade
-First draft of README
+
+Andrea
+Donald Boykin
+Elijah
+Jeff
+Kate
 
 Presentation: 
-We selected the topic of Free Trade. Specially conditions of farmers. The database we used was from surveys done by migrant farmers in California. There were 2 surveys done a year apart. There were over 30 questions on the survey. The data was then complied into the Excel file we are using. We hope to determine the best conditions to determine the optimum job satisfaction. It might be a certain Farm or a certain job, but we hope to find out.
+For our group final Project for the 2021-2022 Columbia Boot we selected the topic of Fair Trade. Specially around conditions of farmers. The database we used was from surveys done by migrant farmers in California. There were 2 surveys done a year apart. There were over 30 questions on the survey. The data was then complied into the Excel file we are using. We hope to determine the best conditions to determine the optimum job satisfaction. It might be a certain Farm or a certain job, but we hope to find out.
 
 GitHub: 
 The team worked together on GitHub, slack, and during class time in our breakout rooms. We were even able to get a second breakout room. One room was involved in cleaning the data. The other room was where the README.md file was worked on. 
