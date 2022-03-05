@@ -22,3 +22,4 @@ We had a few people make preliminary Machine Learning Models. The first one pick
 
 Databased: 
 When we first got the database, we looked through the excel file and did a preliminary clean up by deleting columns we didn’t need. We started out with <enter original number of columns> and ended up with <enter clean data number of columns>. We then coded in Python and read the file into the code. The cleaned file then went through additional cleaning before we put it through our Machine Learning Model.
+  - we read the file into jupyter notebook, we renamed some columns and dropped others that we did not need, we removed all rows with "refused" and "dont know" values, "we recoded the values in the 'factory_recommend_tf_score' column to follow the NPS score, droppped any rows with NaN values, made sure all the columns had the right data type, and finally exported the file as a csv. 
