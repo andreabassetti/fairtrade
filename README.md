@@ -23,7 +23,7 @@ Our Machine learning model reads in a csv file that is edited from the Fair Trad
 - Drops ‘factory_recommend_tf_core’ and assigns it as a feature set 
 - From the rest of the database, make prediction using the RandomForestClassifier with train and test
 - Makes a Confusion Matrix from the data with a 62.7% accuracy
-- Sorts the most important features for the prediction, with the most iportant one being age_core
+- Sorts the most important features for the prediction, with the most important one being age_core
 ![confusionmatrixsample](https://github.com/andreabassetti/fairtrade/blob/main/Resources/confusionmatrixsample.png)
 
 
