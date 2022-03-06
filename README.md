@@ -29,4 +29,4 @@ When we first got the database, we looked through the excel file as a team and d
 - The 'factory_recommend_tf_score' column to record our new values to follow the NPS score
 - Rows with NaN vales were droppped
 - Made sure all the columns had the right data type
-- Finally exported the file as a csv. 
+- Finally exported the file as a csv 
