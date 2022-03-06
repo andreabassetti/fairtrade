@@ -1,7 +1,7 @@
 # FairTrade 
 
-##Team Members Roles
-###Andrea Bassetti (Triangle: Machine Learning Models)
+## Team Members Roles
+### Andrea Bassetti (Triangle: Machine Learning Models)
 -Donald Boykin (X: README)
 -Elijah Taylor (Triangle: Machine Learning Models)
 -Jeff Zimmerman (Square: Repository)
