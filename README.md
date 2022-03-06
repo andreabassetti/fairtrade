@@ -8,7 +8,7 @@
 #### Kate Matias (Circle: Database)
 
 ## Presentation: 
-For our group final Project for the 2021-2022 Columbia Boot Camp we selected the topic of Fair Trade. This data was collected anonymously from tomato farmers. The database we used was from surveys done by migrant farmers in California. There were 2 surveys done a year apart. There were over 30 questions on the survey. The data was then complied into the Excel file we are using. We hope to determine the best conditions to determine the optimum job satisfaction. It might be a certain Farm or a certain job, but we hope to find out.
+For our group final Project for the 2021-2022 Columbia Boot Camp we selected the topic of Fair Trade. This data was collected anonymously from tomato farmers. The database we used was from surveys done at different tomato farms in Mexico. 2 surveys were done at each farm one year apart. There were over 50 questions on the survey. The data was then complied into the Excel file we are using. We hope to determine the best conditions to determine the optimum job satisfaction. It might be a certain Farm or a certain job, but we hope to find out.
 - Selected topic: We used a data set provide by Fair Trade USA. The dataset is a collection of survey responses collected at the worker level in tomato farms in Mexico. The surveys aim to gain a better understanding around the workplace wellbeing (pay, contracts, etc), individual wellbeing (water access, food access, etc), the impact the certification is having, and the NPS score awarded by workers to the farm.
 - Reason why we selected: The dataset holds a unique opportunity to understand if there is a link between wellbeing and the NPS score given by the workers. We are trying to understand if there are factors that are stronger predictors than others. 
 - Description of the data source: The data was provided by Andrea Bassetti. It was taken directly from Qualtrics (our survey platform) and downloaded onto excel. 
@@ -20,10 +20,10 @@ The team worked together on GitHub, Slack, and during class time in our breakout
 ## Machine Learning Model: 
 Our Machine learning model reads in a csv file that is edited from the Fair Trade USA Excel file we started with. The Team runs a RandomForestClassifier to identify which attributes form the survey are the best predictor scores for the NPS score they are giving the farm. We will be running a ternary (one more than a binary) model where there are three outcomes: promoter, neutral, or demoter. (This is a widely used score, here is more info about it: https://www.netpromoter.com/know/). We will work with the model to identify the attributes that will give us the highest accuracy and the ideal number of attributes needed to make the prediction. The majority of the data has values in the form of strings, these will be cleaned and recoded to numerical values as to reflect our NPS scoring system. 
 - Reads a CSV file with 3612 entries into Jupyter Notebook
-- Drops ‘factory_recommend_tf_core’ and set as the test case 
-- From the rest of the database, make prediction using the RandomForestClassifier
+- Drops ‘factory_recommend_tf_core’ and assigns it as a feature set 
+- From the rest of the database, make prediction using the RandomForestClassifier with train and test
 - Makes a Confusion Matrix from the data with a 62.7% accuracy
-- Determines the most important aspects (age_core)
+- Sorts the most important features for the prediction, with the most iportant one being age_core
 
 
 ## Database: 
