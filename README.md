@@ -1,10 +1,11 @@
-# FairTrade Team Members Roles
+# FairTrade 
 
-Andrea Bassetti (Triangle: Machine Learning Models)
-Donald Boykin (X: README)
-Elijah Taylor (Triangle: Machine Learning Models)
-Jeff Zimmerman (Square: Repository)
-Kate Matias (Circle: Database)
+##Team Members Roles
+-Andrea Bassetti (Triangle: Machine Learning Models)
+-Donald Boykin (X: README)
+-Elijah Taylor (Triangle: Machine Learning Models)
+-Jeff Zimmerman (Square: Repository)
+-Kate Matias (Circle: Database)
 
 ## Presentation: 
 For our group final Project for the 2021-2022 Columbia Boot Camp we selected the topic of Fair Trade. This data was collected anomously from tomatoe farmers. The database we used was from surveys done by migrant farmers in California. There were 2 surveys done a year apart. There were over 30 questions on the survey. The data was then complied into the Excel file we are using. We hope to determine the best conditions to determine the optimum job satisfaction. It might be a certain Farm or a certain job, but we hope to find out.
