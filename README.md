@@ -22,5 +22,8 @@ We had a few people make preliminary Machine Learning Models. The first one pick
 - The team is planning on running RandomForestClassifier to identify which attributes form the survey are the best predictor scores for the NPS score they are giving the farm. We will be running a ternary (one more than a bianry) model where there are three outcomes: promoter, neutral, or demoter. (this is a widely used score, here is more info about it: https://www.netpromoter.com/know/). We will work with the model to identify the attributes that will give us the highest accuracy and the ideal number of attributes needed to make the prediction. The majority of the data has values in the form of strings, these will be cleaned and recoded ot numerical values. 
 
 ## Database: 
-When we first got the database, we looked through the excel file and did a preliminary clean by deleting unesscary  columns to our project. We then coded in Python on to finish cleaning the database. 
-  - we read the file into jupyter notebook, we renamed some columns and dropped others that we did not need, we removed all rows with "refused" and "dont know" values, "we recoded the values in the 'factory_recommend_tf_score' column to follow the NPS score, droppped any rows with NaN values, made sure all the columns had the right data type, and finally exported the file as a csv. 
+When we first got the database, we looked through the excel file as a team and did a preliminary clean by determining unnecessary columns to our project. We then coded in Python to finish cleaning the database.
+- The file was read into Jupyter Notebook
+- We renamed some columns and dropped others that we did not need
+- We removed all rows with "refused" and "dont know" values
+- we recoded the values in the 'factory_recommend_tf_score' column to follow the NPS score, droppped any rows with NaN values, made sure all the columns had the right data type, and finally exported the file as a csv. 
