@@ -42,5 +42,5 @@ When we first got the database, we looked through the excel file as a team and d
 - Finally exported the file as a csv 
 
 ## Visualization:
-Tableau:
-Google SLides: 
+Tableau: https://public.tableau.com/app/profile/andrea.bassetti/viz/FinalProject-Story_16469645330450/Story1?publish=yes
+Google SLides: https://docs.google.com/presentation/d/1H1MdfxaCAsKB6ChjP8N0JzK3eiFUNFjttOr9pTG4bCU/edit?usp=sharing
