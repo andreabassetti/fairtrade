@@ -17,6 +17,10 @@ For our group final Project for the 2021-2022 Columbia Boot Camp we selected the
 ## GitHub: 
 The team worked together on GitHub, Slack, and during class time in our breakout room during both class periods. After working on our section in our branch, we made make sure it was ok to merge to the main branch so as not to cause problems in our repository.
 
+## Data Exploration Phase: 
+In this phase the team decided to run preliminary linear regressions and create scatter plots. This was in an effort to give us a better underatsnding of what the data holds before inputing it into the machine learning model. ADD MORE ABOUT CODE AND PICTURES OF SCATTER PLOTS
+
+
 ## Machine Learning Model: 
 Our Machine learning model reads in a csv file that is edited from the Fair Trade USA Excel file we started with. The Team runs a RandomForestClassifier to identify which attributes form the survey are the best predictor scores for the NPS score they are giving the farm. We will be running a ternary (one more than a binary) model where there are three outcomes: promoter, neutral, or detractor. (This is a widely used score, here is more info about it: https://www.netpromoter.com/know/). We will work with the model to identify the attributes that will give us the highest accuracy and the ideal number of attributes needed to make the prediction. The majority of the data has values in the form of strings, these will be cleaned and recoded to numerical values as to reflect our NPS scoring system. 
 - Reads a CSV file with 3612 entries into Jupyter Notebook
@@ -36,3 +40,8 @@ When we first got the database, we looked through the excel file as a team and d
 - Rows with 'NaN' values were dropped
 - Made sure all the columns had the right data type
 - Finally exported the file as a csv 
+
+## Visualization:
+Tableau: https://public.tableau.com/app/profile/andrea.bassetti/viz/FinalProject-Story_16469645330450/Story1?publish=yes
+
+Google Slides: https://docs.google.com/presentation/d/1H1MdfxaCAsKB6ChjP8N0JzK3eiFUNFjttOr9pTG4bCU/edit?usp=sharing
