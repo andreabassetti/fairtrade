@@ -1,13 +1,14 @@
-# FairTrade 
+# Bootcamp Final Project: Fair Trade 
 
-## Team Members Roles Segment 1:
+## Team Members Roles 
+### Segment 1:
 #### Andrea Bassetti (Triangle: Machine Learning Models)
 #### Donald Boykin (X: README)
 #### Elijah Taylor (Triangle: Machine Learning Models)
 #### Jeff Zimmerman (Square: Repository)
 #### Kate Matias (Circle: Database)
 
-## Team Members Roles Segment 2:
+### Segment 2:
 #### Andrea Bassetti (X: README, Google SLides, Tableau
 #### Donald Boykin (Circle: Database)
 #### Elijah Taylor (Triangle: Machine Learning Models)
