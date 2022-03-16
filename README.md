@@ -51,6 +51,8 @@ When we first got the database, we looked through the excel file as a team and d
 - Rows with 'NaN' values were dropped
 - Made sure all the columns had the right data type
 - Finally exported the file as a csv 
+We also created an ERD to visualize relationships
+Updated ERD.png
 
 ## Visualization:
 Google Slides: https://docs.google.com/presentation/d/1H1MdfxaCAsKB6ChjP8N0JzK3eiFUNFjttOr9pTG4bCU/edit?usp=sharing
