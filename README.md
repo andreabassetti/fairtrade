@@ -46,6 +46,7 @@ When we first got the database, we looked through the excel file as a team and d
 - The file was read into Jupyter Notebook
 - Some columns were renamed, and others were dropped that we did not need
 - Rows were removed with "refused" and "don't know" values
+- Created new entity_tenure_total_months column by merging year and month columns and recalculating
 - Converted string values in the 'factory_recommend_tf_score' column to integers, and binned our new values to match NPS scoring metric
 - Rows with 'NaN' values were dropped
 - Made sure all the columns had the right data type
