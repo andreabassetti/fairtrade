@@ -52,7 +52,8 @@ When we first got the database, we looked through the excel file as a team and d
 - Made sure all the columns had the right data type
 - Finally exported the file as a csv 
 We also created an ERD to visualize relationships
-Updated ERD.png
+![Screen Shot 2022-03-15 at 8 21 32 PM](https://user-images.githubusercontent.com/91562577/158493086-9058aadc-fb70-4e99-b57e-258c5abd7f8f.png)
+
 
 ## Visualization:
 Google Slides: https://docs.google.com/presentation/d/1H1MdfxaCAsKB6ChjP8N0JzK3eiFUNFjttOr9pTG4bCU/edit?usp=sharing
