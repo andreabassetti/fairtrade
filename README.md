@@ -47,7 +47,22 @@ Our Machine learning model reads in a csv file that is edited from the Fair Trad
 - From the rest of the database, make prediction using the RandomForestClassifier with train and test
 - Makes a Confusion Matrix from the data with a 62.7% accuracy
 - Sorts the most important features for the prediction, with the most important one being age_core
+
+✓ Description of preliminary data
+preprocessing 
+
+✓ Description of preliminary feature
+engineering and preliminary feature
+selection, including their decision-making
+process 
+✓ Description of how data was split into
+training and testing sets 
+✓ Explanation of model choice, including
+limitations and benefits
+
+
 ![confusionmatrixsample](https://github.com/andreabassetti/fairtrade/blob/main/Resources/confusionmatrixsample.png)
+
 
 
 ## Database: 
