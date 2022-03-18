@@ -41,28 +41,56 @@ In this phase the team decided to run preliminary linear regressions and create 
 
 
 ## Machine Learning Model: 
-Our Machine learning model reads in a csv file that is edited from the Fair Trade USA Excel file we started with. The Team runs a RandomForestClassifier to identify which attributes form the survey are the best predictor scores for the NPS score they are giving the farm. We initially began running a ternary (one more than a binary) model where there were three outcomes: promoter, neutral, or detractor. (This is a widely used score, here is more info about it: https://www.netpromoter.com/know/). After observing less than ideal results, we decided to reassess the binning parameters and switch to a binary outcome model with values of either promotor or detractor. We will work with the model to identify the attributes that will give us the highest accuracy and the ideal number of attributes needed to make the prediction. The majority of the data has values in the form of strings, these will be cleaned and recoded to numerical values as to reflect our NPS scoring system. 
-- Reads a CSV file with 3612 entries into Jupyter Notebook
-- Drops ‘factory_recommend_tf_core’ and assigns it as a feature set 
-- From the rest of the database, make prediction using the RandomForestClassifier with train and test
-- Makes a Confusion Matrix from the data with a 62.7% accuracy
-- Sorts the most important features for the prediction, with the most important one being age_core
+Our Machine learning model reads in a csv file that is edited from the Fair Trade USA Excel file we started with. The Team runs a RandomForestClassifier to identify which attributes from the survey are the best at helping predict the type of NPS score they are giving the farm. We initially began running a ternary (one more than a binary) model where there were three outcomes: promoter, neutral, or detractor. (This is a widely used score, here is more info about it: https://www.netpromoter.com/know/). After observing less than ideal results, we decided to reassess the binning parameters and switch to a binary outcome model with values of either promotor or detractor. We will work with the model to identify the attributes that will give us the highest accuracy possible without overfitting and the ideal attributes needed to make the prediction. The majority of the data has values in the form of strings, these will be cleaned and recoded to numerical values as to reflect our NPS scoring system. 
 
-✓ Description of preliminary data
-preprocessing 
+We first read our CSV file with 3612 entries into Jupyter Notebook
 
-✓ Description of preliminary feature
+For our preprocessing of the data, we dropped all of the columns that contained large amounts of missing fields.  We then dropped the rows that contained answers of 'refused' or 'don't know'.  Next we standardized the values in the columns so that they're consistent across the column (all ints).
+
+![Screen Shot 2022-03-17 at 8 47 59 PM](https://user-images.githubusercontent.com/87248687/158916622-a5a6c6f9-7878-4210-8079-7181c7ee5835.png)
+
+We then dropped rows that contained nulled values.
+
+
+
+We also then created a new column called ‘factory_recommend_tf_score' based off of binning the scores into 2 categories (0 and 1).
+
+```
+# Transform factory_recommend_tf_core to have positive or negative status
+# Values 0-5 would be coded as '0' (Negative) 
+# Values 6-10 would be coded as '1' (Positive)
+
+fairtrade_df['factory_recommend_tf_score'] = pd.cut(fairtrade_df['factory_recommend_tf_core'], bins=[0, 5, 10], include_lowest=True, labels=['0', '1'])
+
+fairtrade_df.head(20)
+```
+
+For our target variable, we assigned the column 'factory_recommended_tf_score' which would tell us whether or not the recommendation score was a promoter or demoter.
+
+<img width="1091" alt="Screen Shot 2022-03-17 at 8 54 49 PM" src="https://user-images.githubusercontent.com/87248687/158917202-e216b92f-1196-48d7-8777-51af95154a99.png">
+
+ Description of preliminary feature
 engineering and preliminary feature
 selection, including their decision-making
 process 
-✓ Description of how data was split into
-training and testing sets 
-✓ Explanation of model choice, including
-limitations and benefits
+
+Based off the feature importance coefficients from the preliminary model, we relied on that to distinguish which features were relevant and which were not.  We also assigned features to our model based off some of the correlations we saw during the data exploration phase.
+
+*ADD LINK TO DATA EXPLORATION NOTEBOOK HERE*
 
 
-![confusionmatrixsample](https://github.com/andreabassetti/fairtrade/blob/main/Resources/confusionmatrixsample.png)
+The data was split using the default setting of the train_test_split function splitting 75% of the data as training data and 25% of it as testing data.
 
+
+We tried various different models (RandomOverSampler, Adaboost Classifier) to see how they performed against each other.
+We decided to go with Random Forest Classifier since it’s a great model to choose to avoid overfitting and we could use it rank the importance of the input features.  The initial limitations seen in this model is that it has a somewhat low precision score with predicting demoters.
+
+Below, you can see the results in our confusion matrix.
+
+
+![Screen Shot 2022-03-17 at 9 04 37 PM](https://user-images.githubusercontent.com/87248687/158918038-a8de1c64-2f77-4ceb-8e67-ec876f4f30ab.png)
+
+Based off of this model, we have an accuracy score of approximately 75% which is acceptable based on the target that we are trying to predict.
 
 
 ## Database: 
