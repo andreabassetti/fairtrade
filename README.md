@@ -98,22 +98,26 @@ Based off of this model, we have an accuracy score of approximately 75% which is
 
 
 ## Database: 
-When we first got the database, we looked through the excel file as a team and did a preliminary clean by determining unnecessary columns to our project. We then coded in Python to finish cleaning the database.
-- The file was read into Jupyter Notebook
-- Some columns were renamed, and others were dropped that we did not need
-- Rows were removed with "refused" and "don't know" values
-- Created new entity_tenure_total_months column by merging year and month columns and recalculating
-- Converted string values in the 'factory_recommend_tf_score' column to integers, and binned our new values to match NPS scoring metric
-- Rows with 'NaN' values were dropped
-- Made sure all the columns had the right data type
-- Finally exported the file as a csv 
-- We also created an ERD to visualize relationships in the database
+For our Database we started off with a relatively clean fairtrade excel document where as a team we agreed on what columns were necessary to perform our analysis. The rest of the data preprocessing was coded in our fairtrade_clean_data jupyer notebook. First we loaded the data, renamed some of our columns and dropped columns that we did not need for our analysis. Then we dropped the rows that contained responses such as "refused" or "Don't know". Following this, we changed the string values in our 'factory_recommend_tf_score' column to integers and binned our new values to match NPS scoring metric. Values 0-5 were binned as '0' and considered to be our demoters and values 6-10 were binned as '1' and considered to be our promoters. Rows with 'NaN' values were dropped and we checked the datatypes of our columns to make sure all the columns had the right data types. Lastly, we exported the clean dataframe as a new CSV for the basis of our analysis. 
+
+https://github.com/andreabassetti/fairtrade/blob/main/Database/fairtrade_clean_data.ipynb
+
+Next we created an ERD to visualize the relationships in the database between fairtrade condition variables and fairtrade satisfaction variables.
+
 ![Screen Shot 2022-03-15 at 8 21 32 PM](https://user-images.githubusercontent.com/91562577/158493086-9058aadc-fb70-4e99-b57e-258c5abd7f8f.png)
 
+The following jupter notebook containes the code we used to establish a connection string using SQLAlchemy. 
+
+https://github.com/andreabassetti/fairtrade/blob/main/Database/fairtrade_create_database.ipynb
+
+<img width="811" alt="Screen Shot 2022-03-18 at 1 53 31 PM" src="https://user-images.githubusercontent.com/91925639/159057130-aff27e58-b39d-4b96-8416-216b3eeee9bf.png">
+
+Once we were able to establish our database in pgAdmin so that it would interface with our data for our project, we created two tables which correlated to our ERD. Our first table was named fairtrade_conditions and held the columns which measured the workers conditions at Fair Trade. Our second table was named fairtrade_satisfaction and held the columns which measured the satisfaction scores of workers at Fair Trade. After successfully creating our tables we then performed an inner join on the fairtrade_conditions and fairtrade_satisfaction tables. Below is the query we used to create our tables and perform our inner join in pgAdmin.
+
+https://github.com/andreabassetti/fairtrade/blob/main/Database/query.sql
 
 ## Visualization:
 Google Slides: https://docs.google.com/presentation/d/1H1MdfxaCAsKB6ChjP8N0JzK3eiFUNFjttOr9pTG4bCU/edit?usp=sharing
 ### Tableau
 To summarize the findings to the guiding questions of this project, we created a story board on Tableau. The first page on the story board contextualized the data source, gives a response count per farm, and shows the locations of where the responses where collected. The machine learning model page shows the final findings of the RandomForestClassifier model. It additionally there is an interactive component to see the attribute score, rank, and a correlation visualization for each attribute that was run in the model. The final page allows the user to interactivelu visualize the overall findings of the data source for each attribute. This is the data in its simplest forms that allows us to understand how each farm is performing in relation to eachother. Due to parameter limitations, this tab only displays columsn where the data source is a string. 
 Link: https://public.tableau.com/app/profile/andrea.bassetti/viz/FinalProject-Story_16469645330450/Story1?publish=yes
-
