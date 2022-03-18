@@ -25,12 +25,15 @@ The team worked together on GitHub, Slack, and during class time in our breakout
 -	Created a google slide for visualization
 -	Created a tableau for further visualization of the data
 
+
 ## Presentation: 
 For our group final Project for the 2021-2022 Columbia Boot Camp we selected the topic of Fair Trade. This data was collected anonymously from tomato farmers. The database we used was from surveys done at different tomato farms in Mexico. Two surveys were done at each farm, one year apart. There were over 50 questions on the survey. The data was then complied into the Excel file we are using. We hope to determine the best conditions to determine the optimum job satisfaction. It might be a certain farm or a certain job, but we hope to find out.
 - Selected topic: We used a data set provide by Fair Trade USA. The dataset is a collection of survey responses collected at the worker level in tomato farms in Mexico. The surveys aim to gain a better understanding around the workplace wellbeing (pay, contracts, etc.), individual wellbeing (water access, food access, etc.), the impact the certification is having, and the Net Promoter Score (NPS score) awarded by workers to the farm.
 - Reason why we selected: The dataset holds a unique opportunity to understand if there is a link between wellbeing and the NPS score given by the workers. We are trying to understand if there are factors that are stronger predictors than others. 
 - Description of the data source: The data was provided by Andrea Bassetti. It was taken directly from Qualtrics (a survey platform) and downloaded into Excel. 
 - Questions we hope to answer: We are trying to understand which wellbeing attributes are best predictors for the NPS score given to the farm by the worker. If we are able to understand where the farm should focus the most efforts to improve the workers livelihood and increase worker satisfaction there will be a chain of positive effects on such aspects like higher retention, better product, higher sales, etc. The specific questions are: How are these 8 tomato farms in Mexico performing regarding worker wellbeing?, With what accuracy can a RandomForestClassifier model predict the NPS score* given by the workers?, Which attributes to wellbeing are the strongest predictors for the NPS score given by the workers? 
+- Description of the data exploration: We experimented with different regressions to before we tried different machine learning models. This helped us figure out which columns didn’t have complete entries. Which columns to keep and drop from the original database. Which columns to split into separate databases to explore more correlation. We then did a scatter plot for further visualization of the data for further understanding.
+- Description of the analysis phase: We experimented with different Machine Learning Models. Random Forest Classifier, Adaboost classifier, and Oversampling classifier. We found the that Random Forest Classifier is the best one and yielded an accuracy of 74%.
 
 
 ## Data Exploration Phase: 
