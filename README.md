@@ -110,7 +110,7 @@ The following jupter notebook containes the code we used to establish a connecti
 
 https://github.com/andreabassetti/fairtrade/blob/main/Database/fairtrade_create_database.ipynb
 
-<img width="811" alt="Screen Shot 2022-03-18 at 1 53 31 PM" src="https://user-images.githubusercontent.com/91925639/159057130-aff27e58-b39d-4b96-8416-216b3eeee9bf.png">
+![Screen Shot 2022-03-19 at 2 50 21 PM](https://user-images.githubusercontent.com/91925639/159134609-c84ac2c2-faa8-4161-92ed-f8d50e9b7e85.png)
 
 Once we were able to establish our database in pgAdmin so that it would interface with our data for our project, we created two tables which correlated to our ERD. Our first table was named fairtrade_conditions and held the columns which measured the workers conditions at Fair Trade. Our second table was named fairtrade_satisfaction and held the columns which measured the satisfaction scores of workers at Fair Trade. After successfully creating our tables we then performed an inner join on the fairtrade_conditions and fairtrade_satisfaction tables. Below is the query we used to create our tables and perform our inner join in pgAdmin.
 
