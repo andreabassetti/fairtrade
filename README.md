@@ -10,7 +10,7 @@
 
 ### Segment 2:
 #### Andrea Bassetti (X: README, Google SLides, Tableau
-#### Donald Boykin (Circle: Database)
+#### Donald Boykin (Circle: README)
 #### Elijah Taylor (Triangle: Machine Learning Models)
 #### Jeff Zimmerman (Triangle: Machine Learning Models, Data Exploration)
 #### Kate Matias (Circle: Database)
