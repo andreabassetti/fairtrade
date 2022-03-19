@@ -37,7 +37,7 @@ For our group final Project for the 2021-2022 Columbia Boot Camp we selected the
 
 
 ## Data Exploration Phase: 
-In this phase the team decided to run preliminary linear regressions and created scatter plots. This was in an effort to give us a better underatsnding of what the data holds before inputing it into the machine learning model. For this section we used matplotlib.pyplot to create some rudimentary scatter plots. Given the size of the datasource, it was essential for us to visualize the data before working with it. Scatter plots were created to visualize the correlation between all the attributes against the NPS score. See an example below: 
+In this phase the team decided to run preliminary linear regressions and created scatter plots. This was in an effort to give us a better understanding of what the data holds before inputting it into the machine learning model. For this section we used matplotlib.pyplot to create some rudimentary scatter plots. Given the size of the data source, it was essential for us to visualize the data before working with it. Scatter plots were created to visualize the correlation between all the attributes against the NPS score. See an example below: 
 ![scatterplot_ex](https://github.com/andreabassetti/fairtrade/blob/main/PNGs/scatterplot_ex.jpg)
 
 From the scatter plots created, we decided that there was potential in the data and that we would move forward with the machine learning model. See full code here: https://github.com/andreabassetti/fairtrade/blob/b7743e121c2d8184e6ba57ef241f6d596a1fd70d/Database/Data%20Exploration%20(Scatter%20Plots)%20/scatterplots.ipynb
