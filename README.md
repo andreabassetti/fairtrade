@@ -35,6 +35,8 @@ For our group final Project for the 2021-2022 Columbia Boot Camp we selected the
 - Description of the data exploration: We experimented with different regressions to before we tried different machine learning models. This helped us figure out which columns didn’t have complete entries. Which columns to keep and drop from the original database. Which columns to split into separate databases to explore more correlation. We then did a scatter plot for further visualization of the data for further understanding.
 - Description of the analysis phase: We experimented with different Machine Learning Models. Random Forest Classifier, Adaboost classifier, and Oversampling classifier. We found the that Random Forest Classifier is the best one and yielded an accuracy of 75%.
 
+This information is also summarized and presented in Google Slides here: https://docs.google.com/presentation/d/1H1MdfxaCAsKB6ChjP8N0JzK3eiFUNFjttOr9pTG4bCU/edit?usp=sharing
+
 
 ## Data Exploration Phase: 
 In this phase the team decided to run preliminary linear regressions and created scatter plots. This was in an effort to give us a better understanding of what the data holds before inputting it into the machine learning model. For this section we used matplotlib.pyplot to create some rudimentary scatter plots. Given the size of the data source, it was essential for us to visualize the data before working with it. Scatter plots were created to visualize the correlation between all the attributes against the NPS score. See an example below: 
@@ -118,7 +120,7 @@ Once we were able to establish our database in pgAdmin so that it would interfac
 https://github.com/andreabassetti/fairtrade/blob/main/Database/query.sql
 
 ## Visualization:
-Google Slides: https://docs.google.com/presentation/d/1H1MdfxaCAsKB6ChjP8N0JzK3eiFUNFjttOr9pTG4bCU/edit?usp=sharing
+
 ### Tableau
 To summarize the findings to the guiding questions of this project, we created a story board on Tableau. The first page on the story board contextualized the data source, gives a response count per farm, and shows the locations of where the responses where collected. The machine learning model page shows the final findings of the RandomForestClassifier model. It additionally there is an interactive component to see the attribute score, rank, and a correlation visualization for each attribute that was run in the model. The final page allows the user to interactivelu visualize the overall findings of the data source for each attribute. This is the data in its simplest forms that allows us to understand how each farm is performing in relation to eachother. Due to parameter limitations, this tab only displays columsn where the data source is a string. 
 Link: https://public.tableau.com/app/profile/andrea.bassetti/viz/FinalProject-Story_16469645330450/Story1?publish=yes
