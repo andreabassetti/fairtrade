@@ -52,7 +52,7 @@ See full code here:
 https://github.com/andreabassetti/fairtrade/blob/main/Machine%20Learning%20Model/fairtrade_ML_Model_Segment2_RF_Classifier.ipynb
 
 
-We first read our CSV file with 3612 entries into Jupyter Notebook
+We first read our CSV file with 3612 entries into Jupyter Notebook.
 
 For our preprocessing of the data, we dropped all of the columns that contained large amounts of missing fields.  We then dropped the rows that contained answers of 'refused' or 'don't know'.  Next we standardized the values in the columns so that they're consistent across the column (all ints).
 
