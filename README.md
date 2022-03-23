@@ -101,7 +101,7 @@ Based off of this model, we have an accuracy score of approximately 75% which is
 
 
 ## Database: 
-For our Database we started off with a relatively clean fairtrade excel document where as a team we agreed on what columns were necessary to perform our analysis. The rest of the data preprocessing was coded in our fairtrade_clean_data jupyter notebook. First, we loaded the data, renamed some of our columns and dropped columns that we did not need for our analysis. Then we dropped the rows that contained responses such as "refused" or "Don't know". Following this, we changed the string values in our 'factory_recommend_tf_score' column to integers and binned our new values to match NPS scoring metric. Values 0-5 were binned as '0' and considered to be our demotors and values 6-10 were binned as '1' and considered to be our promotors. Rows with 'NaN' values were dropped and we checked the datatypes of our columns to make sure all the columns had the right data types. Lastly, we exported the clean dataframe as a new CSV for the basis of our analysis. 
+For our Database we started off with a relatively clean fairtrade excel document where as a team we agreed on what columns were necessary to perform our analysis. The rest of the data preprocessing was coded in our fairtrade_clean_data Jupyter Notebook. First, we loaded the data, renamed some of our columns and dropped columns that we did not need for our analysis. Then we dropped the rows that contained responses such as "refused" or "Don't know". Following this, we changed the string values in our 'factory_recommend_tf_score' column to integers and binned our new values to match the NPS scoring metric. Values 0-5 were binned as '0' and considered to be our demotors and values 6-10 were binned as '1' and considered to be our promotors. Rows with 'NaN' values were dropped and we checked the datatypes of our columns to make sure all the columns had the right data types. Lastly, we exported the clean dataframe as a new CSV for the basis of our analysis. 
 
 https://github.com/andreabassetti/fairtrade/blob/main/Database/fairtrade_clean_data.ipynb
 
@@ -109,7 +109,7 @@ Next we created an ERD to visualize the relationships in the database between fa
 
 ![Screen Shot 2022-03-15 at 8 21 32 PM](https://user-images.githubusercontent.com/91562577/158493086-9058aadc-fb70-4e99-b57e-258c5abd7f8f.png)
 
-The following jupyter notebook containes the code we used to establish a connection string using SQLAlchemy. 
+The following Jupyter Notebook containes the code we used to establish a connection string using SQLAlchemy. 
 
 https://github.com/andreabassetti/fairtrade/blob/main/Database/fairtrade_create_database.ipynb
 
