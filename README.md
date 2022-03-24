@@ -94,8 +94,6 @@ Once we were able to establish our database in pgAdmin so that it would interfac
 https://github.com/andreabassetti/fairtrade/blob/main/Database/query.sql
 
 ## Visualization:
-
-### Tableau
 To summarize the findings to the guiding questions of this project, we created a storyboard on Tableau. The first page on the storyboard contextualizes the data source, gives a response count per farm, and shows the locations where the responses were collected. The machine learning model page shows the final findings of the RandomForestClassifier model. It additionally provides an interactive component to see the attribute score, rank, and a correlation visualization for each attribute that was run in the model. The final page allows the user to interactively visualize the overall findings of the data source for each attribute. This is the data in its simplest form that allows us to understand how each farm is performing in relation to each other. Due to parameter limitations, this tab only displays columns where the data source is a string. 
 Link: https://public.tableau.com/app/profile/andrea.bassetti/viz/FinalProject-Story_16469645330450/Story1?publish=yes
 
