@@ -1,38 +1,5 @@
 # Bootcamp Final Project: Fair Trade 
 
-## Team Members Roles 
-### Segment 1:
-#### Andrea Bassetti (Triangle: Machine Learning Models)
-#### Donald Boykin (X: README)
-#### Elijah Taylor (Triangle: Machine Learning Models)
-#### Jeff Zimmerman (Square: Repository)
-#### Kate Matias (Circle: Database)
-
-### Segment 2:
-#### Andrea Bassetti (X: README, Google SLides, Tableau
-#### Donald Boykin (Circle: README)
-#### Elijah Taylor (Triangle: Machine Learning Models)
-#### Jeff Zimmerman (Triangle: Machine Learning Models, Data Exploration)
-#### Kate Matias (Circle: Database)
-
-
-## GitHub: 
-The team worked together on GitHub, Slack, and during class time in our breakout room during both class periods. After working on our section in our branch, we made make sure it was ok to merge to the main branch so as not to cause problems in our repository.
--	The whole team did a preliminary clean of the excel file
--	Experimented with data manipulation to further narrow down which columns we plan to use
--	Split the database to find connection between columns by using an inner join
--	Trying different Machine Learning Models: Random Forest classifier; Adaboost classifier; Oversampling classifier 
--	Created a google slide for visualization
--	Created a tableau for further visualization of the data
-
-## Tools & Languages
-- Python
-- Jupyter notebook
-- RandomForestClassifier
-- PostgresSQL
-- SQLAlchemy
-- Tableau
-
 ## Presentation: 
 For our group final Project for the 2021-2022 Columbia Boot Camp we selected the topic of Fair Trade. This data was collected anonymously from tomato farmers. The database we used was from surveys done at different tomato farms in Mexico. Two surveys were done at each farm, one year apart. There were over 50 questions on the survey. The data was then complied into the Excel file we are using. We hope to determine the best conditions to determine the optimum job satisfaction. It might be a certain farm or a certain job, but we hope to find out.
 - Selected topic: We used a data set provide by Fair Trade USA. The dataset is a collection of survey responses collected at the worker level in tomato farms in Mexico. The surveys aim to gain a better understanding around the workplace wellbeing (pay, contracts, etc.), individual wellbeing (water access, food access, etc.), the impact the certification is having, and the Net Promoter Score (NPS score) awarded by workers to the farm.
@@ -131,3 +98,11 @@ https://github.com/andreabassetti/fairtrade/blob/main/Database/query.sql
 ### Tableau
 To summarize the findings to the guiding questions of this project, we created a storyboard on Tableau. The first page on the storyboard contextualizes the data source, gives a response count per farm, and shows the locations where the responses were collected. The machine learning model page shows the final findings of the RandomForestClassifier model. It additionally provides an interactive component to see the attribute score, rank, and a correlation visualization for each attribute that was run in the model. The final page allows the user to interactively visualize the overall findings of the data source for each attribute. This is the data in its simplest form that allows us to understand how each farm is performing in relation to each other. Due to parameter limitations, this tab only displays columns where the data source is a string. 
 Link: https://public.tableau.com/app/profile/andrea.bassetti/viz/FinalProject-Story_16469645330450/Story1?publish=yes
+
+## Tools & Languages
+- Python
+- Jupyter notebook
+- RandomForestClassifier
+- PostgresSQL
+- SQLAlchemy
+- Tableau
