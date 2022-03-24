@@ -25,6 +25,13 @@ The team worked together on GitHub, Slack, and during class time in our breakout
 -	Created a google slide for visualization
 -	Created a tableau for further visualization of the data
 
+## Tools & Languages
+- Python
+- Jupyter notebook
+- RandomForestClassifier
+- PostgresSQL
+- SQLAlchemy
+- Tableau
 
 ## Presentation: 
 For our group final Project for the 2021-2022 Columbia Boot Camp we selected the topic of Fair Trade. This data was collected anonymously from tomato farmers. The database we used was from surveys done at different tomato farms in Mexico. Two surveys were done at each farm, one year apart. There were over 50 questions on the survey. The data was then complied into the Excel file we are using. We hope to determine the best conditions to determine the optimum job satisfaction. It might be a certain farm or a certain job, but we hope to find out.
