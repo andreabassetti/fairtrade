@@ -1,6 +1,6 @@
 # Bootcamp Final Project: Fair Trade 
 
-## Presentation: 
+## Overview: 
 For our group final Project for the 2021-2022 Columbia Boot Camp we selected the topic of Fair Trade. This data was collected anonymously from tomato farmers. The database we used was from surveys done at different tomato farms in Mexico. Two surveys were done at each farm, one year apart. There were over 50 questions on the survey. The data was then complied into the Excel file we are using. We hope to determine the best conditions to determine the optimum job satisfaction. It might be a certain farm or a certain job, but we hope to find out.
 - Selected topic: We used a data set provide by Fair Trade USA. The dataset is a collection of survey responses collected at the worker level in tomato farms in Mexico. The surveys aim to gain a better understanding around the workplace wellbeing (pay, contracts, etc.), individual wellbeing (water access, food access, etc.), the impact the certification is having, and the Net Promoter Score (NPS score) awarded by workers to the farm.
 - Reason why we selected: The dataset holds a unique opportunity to understand if there is a link between wellbeing and the NPS score given by the workers. We are trying to understand if there are factors that are stronger predictors than others. 
