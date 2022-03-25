@@ -8,7 +8,7 @@ For our group final Project for the 2021-2022 Columbia Boot Camp we selected the
 - Questions we hope to answer: We are trying to understand which wellbeing attributes are best predictors for the NPS score given to the farm by the worker. If we are able to understand where the farm should focus the most efforts to improve the workers livelihood and increase worker satisfaction there will be a chain of positive effects on such aspects like higher retention, better product, higher sales, etc. The specific questions are: How are these 12 tomato farms in Mexico performing regarding worker wellbeing?, With what accuracy can a Random Forest Classifier model predict the NPS score given by the workers?, Which attributes to wellbeing are the strongest predictors for the NPS score given by the workers? 
 - Description of the data exploration: We experimented with different regressions to before we tried different machine learning models. This helped us figure out which columns didn’t have complete entries. Which columns to keep and drop from the original database. Which columns to split into separate databases to explore more correlation. We then did a scatter plot for further visualization of the data for further understanding.
 - Description of the analysis phase: We experimented with different Machine Learning Models. Random Forest Classifier, Adaboost classifier, and Oversampling classifier. We found the that Random Forest Classifier is the best one and yielded an accuracy of 75%.
-- Technologies, languages, tools, and algorithms used throughout the project: Python, Jupyter notebook, Random Forest Classifier, PostgresSQL, SQLAlchemy, Tableau, Net Promoter Score (NPS), and Google slides.
+- Technologies, languages, tools, and algorithms used throughout the project: Python, Jupyter notebook, Random Forest Classifier, PostgresSQL, SQLAlchemy, Tableau, Net Promoter Score, and Google slides.
 
 This information is also summarized and presented in Google Slides here: https://docs.google.com/presentation/d/1H1MdfxaCAsKB6ChjP8N0JzK3eiFUNFjttOr9pTG4bCU/edit?usp=sharing
 
@@ -49,7 +49,7 @@ fairtrade_df['factory_recommend_tf_score'] = pd.cut(fairtrade_df['factory_recomm
 fairtrade_df.head(20)
 ```
 
-For our target variable, we assigned the column 'factory_recommended_tf_score' which would tell us whether the recommendation score was a promoter or demoter.
+For our target variable, we assigned the column 'factory_recommended_tf_score' which would tell us whether the recommendation score was a promoter or demotor.
 
 <img width="1091" alt="Screen Shot 2022-03-17 at 8 54 49 PM" src="https://user-images.githubusercontent.com/87248687/158917202-e216b92f-1196-48d7-8777-51af95154a99.png">
 
@@ -65,7 +65,7 @@ The data was split using the default setting of the train_test_split function sp
 
 
 We tried various different models (RandomOverSampler, Adaboost Classifier) to see how they performed against each other.
-We decided to go with Random Forest Classifier since it’s a great model to choose to avoid overfitting and we could use it rank the importance of the input features.  The initial limitations seen in this model is that it has a somewhat low precision score with predicting demoters.
+We decided to go with Random Forest Classifier since it’s a great model to choose to avoid overfitting and we could use it rank the importance of the input features.  The initial limitations seen in this model is that it has a somewhat low precision score with predicting demotors.
 
 Below, you can see the results in our confusion matrix.
 
