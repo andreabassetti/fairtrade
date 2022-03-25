@@ -49,7 +49,7 @@ fairtrade_df['factory_recommend_tf_score'] = pd.cut(fairtrade_df['factory_recomm
 fairtrade_df.head(20)
 ```
 
-For our target variable, we assigned the column 'factory_recommended_tf_score' which would tell us whether or not the recommendation score was a promoter or demoter.
+For our target variable, we assigned the column 'factory_recommended_tf_score' which would tell us whether the recommendation score was a promoter or demoter.
 
 <img width="1091" alt="Screen Shot 2022-03-17 at 8 54 49 PM" src="https://user-images.githubusercontent.com/87248687/158917202-e216b92f-1196-48d7-8777-51af95154a99.png">
 
@@ -80,20 +80,20 @@ For our Database we started off with a relatively clean fairtrade excel document
 
 https://github.com/andreabassetti/fairtrade/blob/main/Database/fairtrade_clean_data.ipynb
 
-Next we created an ERD to visualize the relationships in the database between fairtrade condition variables and fairtrade satisfaction variables.
+Next, we created an ERD to visualize the relationships in the database between fairtrade condition variables and fairtrade satisfaction variables.
 
 ![Screen Shot 2022-03-15 at 8 21 32 PM](https://user-images.githubusercontent.com/91562577/158493086-9058aadc-fb70-4e99-b57e-258c5abd7f8f.png)
 
-The following Jupyter Notebook containes the code we used to establish a connection string using SQLAlchemy. 
+The following Jupyter Notebook contains the code we used to establish a connection string using SQLAlchemy. 
 
 https://github.com/andreabassetti/fairtrade/blob/main/Database/fairtrade_create_database.ipynb
 
 ![Screen Shot 2022-03-19 at 2 50 21 PM](https://user-images.githubusercontent.com/91925639/159134609-c84ac2c2-faa8-4161-92ed-f8d50e9b7e85.png)
 
-Once we were able to establish our database in pgAdmin so that it would interface with our data for our project, we created two tables which correlated to our ERD. Our first table was named fairtrade_conditions and held the columns which measured the workers conditions at Fair Trade. Our second table was named fairtrade_satisfaction and held the columns which measured the satisfaction scores of workers at Fair Trade. After successfully creating our tables we then performed an inner join on the fairtrade_conditions and fairtrade_satisfaction tables. Below is the query we used to create our tables and perform our inner join in pgAdmin.
+Once we were able to establish our database in pgAdmin so that it would interface with our data for our project, we created two tables which correlated to our ERD. Our first table was named fairtrade_conditions and held the columns which measured the workers conditions at Fair Trade. Our second table was named fairtrade_satisfaction and held the columns which measured the satisfaction scores of workers at Fair Trade. After successfully creating our tables, we then performed an inner join on the fairtrade_conditions and fairtrade_satisfaction tables. Below is the query we used to create our tables and perform our inner join in pgAdmin.
 
 https://github.com/andreabassetti/fairtrade/blob/main/Database/query.sql
 
 ## Visualization:
-To summarize the findings to the guiding questions of this project, we created a storyboard on Tableau. The first page on the storyboard contextualizes the data source, gives a response count per farm, and shows the locations where the responses were collected. The machine learning model page shows the final findings of the RandomForestClassifier model. It additionally provides an interactive component to see the attribute score, rank, and a correlation visualization for each attribute that was run in the model. The final page allows the user to interactively visualize the overall findings of the data source for each attribute. This is the data in its simplest form that allows us to understand how each farm is performing in relation to each other. Due to parameter limitations, this tab only displays columns where the data source is a string. 
+To summarize the findings to the guiding questions of this project, we created a storyboard on Tableau. The first page on the storyboard contextualizes the data source, gives a response count per farm, and shows the locations where the responses were collected. The machine learning model page shows the final findings of the Random Forest Classifier model. It additionally provides an interactive component to see the attribute score, rank, and a correlation visualization for each attribute that was run in the model. The final page allows the user to interactively visualize the overall findings of the data source for each attribute. This is the data in its simplest form that allows us to understand how each farm is performing in relation to each other. Due to parameter limitations, this tab only displays columns where the data source is a string. 
 Link: https://public.tableau.com/app/profile/andrea.bassetti/viz/FinalProject-Story_16469645330450/Story1?publish=yes
