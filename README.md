@@ -64,6 +64,8 @@ Based off the feature importance coefficients from the preliminary model, we rel
 The data was split using the default setting of the train_test_split function splitting 75% of the data as training data and 25% of it as testing data.
 
 
+
+
 We tried various different models (RandomOverSampler, Adaboost Classifier) to see how they performed against each other.
 We decided to go with Random Forest Classifier since it’s a great model to choose to avoid overfitting and we could use it rank the importance of the input features.  The initial limitations seen in this model is that it has a somewhat low precision score with predicting demotors.
 
