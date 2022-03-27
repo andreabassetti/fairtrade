@@ -21,7 +21,7 @@ From the scatter plots created, we decided that there was potential in the data 
 
 
 ## Machine Learning Model: 
-Our Machine learning model reads in a csv file that is edited from the Fair Trade USA Excel file we started with. The Team runs a Random Forest Classifier to identify which attributes from the survey are the best at helping predict the type of NPS score they are giving the farm. We initially began running a ternary (one more than a binary) model where there were three outcomes: promotor, neutral, or demotor. (This is a widely used score, here is more info about it: https://www.netpromoter.com/know/). After observing less than ideal results, we decided to reassess the binning parameters and switch to a binary outcome model with values of either promotor or demotor. We will work with the model to identify the attributes that will give us the highest accuracy possible without overfitting and the ideal attributes needed to make the prediction. The majority of the data has values in the form of strings, these will be cleaned and recoded to numerical values as to reflect our NPS scoring system.
+Our Machine learning model reads in a csv file that is edited from the Fair Trade USA Excel file we started with. We ran a Random Forest Classifier to identify which attributes from the survey are the best at helping predict the type of NPS score they are giving the farm. We initially began running a ternary (one more than a binary) model where there were three outcomes: promotor, neutral, or demotor. (This is a widely used score, here is more info about it: https://www.netpromoter.com/know/). After observing less than ideal results, we decided to reassess the binning parameters and switch to a binary outcome model with values of either promotor or demotor. Using a binary model for our analysis was essential in identifying the necessary attributes to make our prediction and yielded the highest accuracy possible without overfitting. The majority of the data had string values which was later cleaned and recoded to numerical values as to reflect our NPS scoring system.
 
 See full code here:
 https://github.com/andreabassetti/fairtrade/blob/main/Machine%20Learning%20Model/fairtrade_ML_Model_Segment2_RF_Classifier.ipynb
@@ -56,7 +56,7 @@ For our target variable, we assigned the column 'factory_recommended_tf_score' w
  Description of preliminary feature
 engineering and preliminary feature
 selection, including their decision-making
-process 
+process: 
 
 Based off the feature importance coefficients from the preliminary model, we relied on that to distinguish which features were relevant and which were not.  We also assigned features to our model based off some of the correlations we saw during the data exploration phase (https://github.com/andreabassetti/fairtrade/blob/b7743e121c2d8184e6ba57ef241f6d596a1fd70d/Database/Data%20Exploration%20(Scatter%20Plots)%20/scatterplots.ipynb).
 
