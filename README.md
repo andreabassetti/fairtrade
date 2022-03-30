@@ -10,6 +10,8 @@ For the 2021-2022 Columbia Boot Camp final group project we selected the topic o
 - Description of the analysis phase: We experimented with various Machine Learning Models such as Random Forest Classifier, Adaboost classifier, and Oversampling classifier. We determined that Random Forest Classifier was the best model for our project which yielded an accuracy of 75%.
 - Technologies, languages, tools, and algorithms used throughout the project: Python, Jupyter notebook, Random Forest Classifier, PGAdmin, PostgresSQL, SQLAlchemy, Tableau, Net Promoter Score, and Google slides.
 - Recommendations of Future Analysis: For better results a wider scope of research. This could include more locations and other commodities. If the survey continues year over year, then this new data would increase the understanding of long-term employment benefits. A deeper dive into the data will yield more results we have not come up with, like more correlation between columns. Start with different goals so the analysist will produce different conclusions. Seeing if different columns could be predicted from a Machine Learning Model. 
+- What the team could have done differently: The team could have used cloud storage to increase accessibility of the data, paced our seleves to ensure we were giving every aspect aspect of the project the right attention to detail, pull the remote repository more often, and clearly communicate when working in the README. 
+
 
 This information is also summarized and presented in Google Slides here: https://docs.google.com/presentation/d/1H1MdfxaCAsKB6ChjP8N0JzK3eiFUNFjttOr9pTG4bCU/edit?usp=sharing
 
