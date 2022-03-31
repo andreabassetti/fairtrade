@@ -13,9 +13,7 @@ For the 2021-2022 Columbia Boot Camp final group project we selected the topic o
 - What the team could have done differently: The team could have used cloud storage to increase accessibility of the data, paced ourselves to ensure we were giving every aspect of the project the right attention to detail, pull the remote repository more often, and clearly communicate when working in the README. 
 - Presentation practice: https://fairtradecertified.box.com/s/cqnc3sxs1snqp9f0inolvju48fvtau6b
 
-
 This information is also summarized and presented in Google Slides here: https://docs.google.com/presentation/d/1H1MdfxaCAsKB6ChjP8N0JzK3eiFUNFjttOr9pTG4bCU/edit?usp=sharing
-
 
 ## Data Exploration Phase: 
 In this phase the team decided to run preliminary linear regressions and created scatter plots. This was in an effort to give us a better understanding of what the data holds before inputting it into the machine learning model. For this section we used matplotlib.pyplot to create some rudimentary scatter plots. Given the size of the data source, it was essential for us to visualize the data before working with it. Scatter plots were created to visualize the correlation between all the attributes against the NPS score. See an example below: 
@@ -24,23 +22,19 @@ In this phase the team decided to run preliminary linear regressions and created
 The scatter plots we created helped us gain a basic understanding of the correlations present before running the machine learning model. Since we were running a binary model, it was important to add the size component to the scatter plots to better visualize the correlation. See below for the full code:
 https://github.com/andreabassetti/fairtrade/blob/b7743e121c2d8184e6ba57ef241f6d596a1fd70d/Database/Data%20Exploration%20(Scatter%20Plots)%20/scatterplots.ipynb
 
-
 ## Machine Learning Model: 
 Our Machine learning model reads in a csv file that is edited from the Fair Trade USA Excel file we started with. We ran a Random Forest Classifier to identify which attributes from the survey are the best at helping predict the type of NPS score they are giving the farm. We initially began running a ternary (one more than a binary) model where there were three outcomes: promotor, neutral, or demotor. (This is a widely used score, here is more info about it: https://www.netpromoter.com/know/). After observing less than ideal results, we decided to reassess the binning parameters and switch to a binary outcome model with values of either promotor or demotor. Using a binary model for our analysis was essential in identifying the necessary attributes to make our prediction and yielded the highest accuracy possible without overfitting. The majority of the data had string values which was later cleaned and recoded to numerical values as to reflect our NPS scoring system.
 
 #### See full code here:
 https://github.com/andreabassetti/fairtrade/blob/main/Machine%20Learning%20Model/fairtrade_ML_Model_Segment2_RF_Classifier.ipynb
 
-
 We first read our CSV file with 3612 entries into Jupyter Notebook.
 
-For our preprocessing of the data, we dropped all of the columns that contained large amounts of missing fields.  We then dropped the rows that contained responses such as 'refused' or 'don't know'. Next, we standardized the values in the columns so that they're consistent across the column (all ints).
+For our preprocessing of the data, we dropped all of the columns that contained large amounts of missing fields.  We then dropped the rows that contained worker responses such as 'refused' or 'don't know'. Next, we standardized the values in the columns so that they're consistent across the column (all ints).
 
 ![Screen Shot 2022-03-17 at 8 47 59 PM](https://user-images.githubusercontent.com/87248687/158916622-a5a6c6f9-7878-4210-8079-7181c7ee5835.png)
 
 We then dropped rows that contained nulled values.
-
-
 
 We also then created a new column called ‘factory_recommend_tf_score' based off of binning the scores into 2 categories (0 and 1).
 
@@ -58,27 +52,20 @@ For our target variable, we assigned the column 'factory_recommended_tf_score' w
 
 <img width="1091" alt="Screen Shot 2022-03-17 at 8 54 49 PM" src="https://user-images.githubusercontent.com/87248687/158917202-e216b92f-1196-48d7-8777-51af95154a99.png">
 
-
-Based off the feature importance coefficients from the preliminary model, we relied on that to distinguish which features were relevant and which were not.  We also assigned features to our model based off some of the correlations we saw during the data exploration phase (https://github.com/andreabassetti/fairtrade/blob/b7743e121c2d8184e6ba57ef241f6d596a1fd70d/Database/Data%20Exploration%20(Scatter%20Plots)%20/scatterplots.ipynb).
+Based off the feature importance coefficients from the preliminary model, we relied on that to distinguish which features were relevant and which were not.  We also assigned features to our model based off some of the correlations we saw during the data exploration phase. (https://github.com/andreabassetti/fairtrade/blob/b7743e121c2d8184e6ba57ef241f6d596a1fd70d/Database/Data%20Exploration%20(Scatter%20Plots)%20/scatterplots.ipynb).
 
 In our future model, we decided to encode some of the feature columns through using ordinal encoding.  We replaced "Strongly Disagree" with the number 1, "Disagree" with the number 2, and contiinued through the 5 options ending with replacing "Strongly Agree" with 5.
 
-
 The data was split using the default setting of the train_test_split function splitting 75% of the data as training data and 25% of it as testing data.
 
-
-
-
 We tried various different models (RandomOverSampler, Adaboost Classifier) to see how they performed against each other.
-We decided to go with Random Forest Classifier since it’s a great model to choose to avoid overfitting and we could use it rank the importance of the input features.  The initial limitations seen in this model is that it has a somewhat low precision score with predicting demotors.
+We ultimately decided to go with Random Forest Classifier since it’s a great model to avoid overfitting and we could use it rank the importance of the input features. The initial limitations seen in this model is that it has a somewhat low precision score with predicting demotors.
 
 Below, you can see the results in our confusion matrix.
-
 
 ![Screen Shot 2022-03-17 at 9 04 37 PM](https://user-images.githubusercontent.com/87248687/158918038-a8de1c64-2f77-4ceb-8e67-ec876f4f30ab.png)
 
 Based off of this model, we have an accuracy score of approximately 75% which is acceptable based on the target that we are trying to predict.
-
 
 ## Database: 
 For our Database we started off with our Fair Trade USA excel document where, as a team, we agreed on what columns were necessary to perform our analysis. The rest of the data preprocessing was coded in our fairtrade_clean_data Jupyter Notebook. First, we loaded the data, renamed some of our columns and dropped the columns we agreed we did not need for our analysis. Then we dropped the rows that contained responses such as "refused" or "Don't know". Subsequently, we changed the string values in our 'factory_recommend_tf_score' column to integers and binned our new values to match the NPS scoring metric. Values 0-5 were binned as '0' and considered to be our demotors and values 6-10 were binned as '1' and considered to be our promotors. All rows with 'NaN' values were dropped and we checked the datatypes of our columns to make sure all the columns had the right data types for our analysis. Lastly, we exported the clean data frame as a new CSV which was the basis for our machine learning model. 
