@@ -60,6 +60,8 @@ For our target variable, we assigned the column 'factory_recommended_tf_score' w
 
 Based off the feature importance coefficients from the preliminary model, we relied on that to distinguish which features were relevant and which were not.  We also assigned features to our model based off some of the correlations we saw during the data exploration phase (https://github.com/andreabassetti/fairtrade/blob/b7743e121c2d8184e6ba57ef241f6d596a1fd70d/Database/Data%20Exploration%20(Scatter%20Plots)%20/scatterplots.ipynb).
 
+In our future model, we decided to encode some of the feature columns through using ordinal encoding.  We replaced "Strongly Disagree" with the number 1, "Disagree" with the number 2, and contiinued through the 5 options ending with replacing "Strongly Agree" with 5.
+
 
 The data was split using the default setting of the train_test_split function splitting 75% of the data as training data and 25% of it as testing data.
 
