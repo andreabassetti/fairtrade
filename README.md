@@ -34,7 +34,7 @@ https://github.com/andreabassetti/fairtrade/blob/main/Machine%20Learning%20Model
 
 We first read our CSV file with 3612 entries into Jupyter Notebook.
 
-For our preprocessing of the data, we dropped all of the columns that contained large amounts of missing fields.  We then dropped the rows that contained answers of 'refused' or 'don't know'.  Next, we standardized the values in the columns so that they're consistent across the column (all ints).
+For our preprocessing of the data, we dropped all of the columns that contained large amounts of missing fields.  We then dropped the rows that contained responses such as 'refused' or 'don't know'. Next, we standardized the values in the columns so that they're consistent across the column (all ints).
 
 ![Screen Shot 2022-03-17 at 8 47 59 PM](https://user-images.githubusercontent.com/87248687/158916622-a5a6c6f9-7878-4210-8079-7181c7ee5835.png)
 
