@@ -27,7 +27,7 @@ From the scatter plots created, we decided that there was potential in the data 
 ## Machine Learning Model: 
 Our Machine learning model reads in a csv file that is edited from the Fair Trade USA Excel file we started with. We ran a Random Forest Classifier to identify which attributes from the survey are the best at helping predict the type of NPS score they are giving the farm. We initially began running a ternary (one more than a binary) model where there were three outcomes: promotor, neutral, or demotor. (This is a widely used score, here is more info about it: https://www.netpromoter.com/know/). After observing less than ideal results, we decided to reassess the binning parameters and switch to a binary outcome model with values of either promotor or demotor. Using a binary model for our analysis was essential in identifying the necessary attributes to make our prediction and yielded the highest accuracy possible without overfitting. The majority of the data had string values which was later cleaned and recoded to numerical values as to reflect our NPS scoring system.
 
-See full code here:
+#### See full code here:
 https://github.com/andreabassetti/fairtrade/blob/main/Machine%20Learning%20Model/fairtrade_ML_Model_Segment2_RF_Classifier.ipynb
 
 
