@@ -1,4 +1,4 @@
-# Bootcamp Final Project: Fair Trade 
+# Bootcamp Final Project: Fair Trade
 
 ## Overview: 
 For the 2021-2022 Columbia Boot Camp final group project we selected the topic of Fair Trade. The data we used for our project was a collection of anonymous surveys from tomato farmers in Mexico that worked for Fair Trade USA. Two surveys of over 50 questions each were done at each farm, one year apart. The data was then complied into an Excel file which was our starting point for our project. Through our analysis we hope to determine the best conditions that determine the optimum job satisfaction, whether that be a preference in the farm the workers work at or a certain job.
